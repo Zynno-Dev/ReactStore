@@ -1,0 +1,9 @@
+.contador {
+    width: 200px;
+    height: 130px;
+    background: #7d4320;
+    border: solid green;
+    font-size: larger;
+    display: block;
+    margin: auto;
+}

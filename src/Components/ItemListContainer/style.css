@@ -1,0 +1,9 @@
+.greatings{
+    color: gray;
+    text-align: center;
+    padding: 20px 0px 0px 20px;
+    list-style: none;
+}
+.GreatingsLi{
+    list-style: none;
+}

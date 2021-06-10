@@ -1,0 +1,8 @@
+.cartIcon{
+    transform: scale(1.5);
+    color: #333333;
+    padding-right: 10px;
+}
+.cartIcon:hover{
+    color: #0a57ca;
+}
