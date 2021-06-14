@@ -1,9 +1,18 @@
 .greatings{
     color: gray;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 0px 0px 20px;
     list-style: none;
 }
 .GreatingsLi{
+    display: block;
+    margin: auto;
     list-style: none;
+    margin-bottom: 20px;
+    background-color: rgb(100, 241, 135);
+    width: 200px;
+}
+
+.GreatingsLi:first-child{
+    margin-top: 30px;
 }
