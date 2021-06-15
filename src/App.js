@@ -8,12 +8,12 @@ function App() {
       <header>
         <NavBar/>
       </header>
-      <body>
+      <div>
               <ItemListContainer greating="ProductoA"/>
               <ItemListContainer greating="ProductoB"/>
               <ItemListContainer greating="ProductoC"/>
               <ItemListContainer greating="ProductoD"/>
-      </body>
+      </div>
     </div>
   );
 }

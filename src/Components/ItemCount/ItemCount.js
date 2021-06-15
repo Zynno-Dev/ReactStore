@@ -29,13 +29,13 @@ const ItemCount = ({initial, stock, onAdd}) => {
   return (
     <div className="contador">
       <p>Cantidad: {num}</p>
-        <Button variant="contained" color="primary" onClick={function(){if(num != stock ) {Modificador(num + 1)}}}>
+        <Button variant="contained" color="primary" onClick={function(){if(num !== stock ) {Modificador(num + 1)}}}>
           +
         </Button>
-        <Button variant="contained" color="primary" onClick={function(){if(num != 0 ) {Modificador(num - 1)}}}>
+        <Button variant="contained" color="primary" onClick={function(){if(num !== 0 ) {Modificador(num - 1)}}}>
           -
         </Button>
-        <Button variant="contained" color="secondary" onClick={() => {num==0? console.log("Compra no valida") : onAdd(num)}}>
+        <Button variant="contained" color="secondary" onClick={() => {num===0? console.log("Compra no valida") : onAdd(num)}}>
           Comprar
         </Button>
     </div>

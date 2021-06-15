@@ -5,7 +5,7 @@ import './style.css'
 const CartWidget = () => {
     return (
         <a href="#">
-            <i class="fas fa-shopping-cart cartIcon"></i>
+            <i className="fas fa-shopping-cart cartIcon"></i>
         </a>
     )
 }

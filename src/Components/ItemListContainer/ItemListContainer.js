@@ -1,6 +1,7 @@
 import './style.css'
 import React from "react";
 import ItemCount from '../ItemCount/ItemCount';
+import Items from '../Items/Items';
 
 const ItemlistContainer = ({ greating }) => {
 
@@ -13,6 +14,7 @@ const ItemlistContainer = ({ greating }) => {
       <ul className="Greatings">
         <li className="GreatingsLi">Producto: {greating}</li>
         <ItemCount initial={0} stock={5} onAdd={onAdd}/>
+        <Items/>
       </ul>
     </div>
 )};
