@@ -6,7 +6,6 @@ import Mocks from '../Mock/Mock'
 class Items extends Component {
 
   constructor() {
-    console.log('Constructor');
     super();
     this.state = {
       lag: [],
@@ -24,7 +23,7 @@ class Items extends Component {
 
   render() {
     return (
-        <div className="Cards-container">
+        <div>
           {this.state.lag.map((lag) => {
             return <p>{lag.title} - {lag.description}</p>;
           })}
