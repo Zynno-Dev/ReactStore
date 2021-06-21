@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, {useEffect, useState } from 'react'
 
 const Items = () => {
 
-  const [localItems, setLocalItems] = useState([])
+  const [localItems, setLocalItems] = useState([]);
 
-  useEffect = (() => {
+  useEffect(() => {
 
     const localMock = [
       {
@@ -49,8 +49,8 @@ const Items = () => {
   return (
     <div>
       <p>
-        {localItems.map(element => {
-          return <div>{element.title} - {element.description}</div>
+        {localItems.map((element, i) => {
+          return <div key={i}>{ element.title + "-" + element.description }</div>
         })}
       </p>
     </div>
